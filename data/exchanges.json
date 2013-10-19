@@ -1,0 +1,140 @@
+{
+  "updated_at": 1382204495,
+  "exchanges": {
+    "NYSE": {
+      "name": "New York Stock Exchange",
+      "currency": "USD",
+      "country_code": "US"
+    },
+    "NasdaqNM": {
+      "name": "NASDAQ Stock Market",
+      "currency": "USD",
+      "country_code": "US"
+    },
+    "NGM": {
+      "name": "NASDAQ Global Market",
+      "currency": "USD",
+      "country_code": "US"
+    },
+    "London": {
+      "name": "London Stock Exchange",
+      "currency": "GBP",
+      "country_code": "GB"
+    },
+    "EWX": {
+      "name": "Euronext",
+      "currency": "EUR",
+      "country_code": "NL"
+    },
+    "HKSE": {
+      "name": "Hong Kong Stock Exchange",
+      "currency": "HKD",
+      "country_code": "HK"
+    },
+    "Shanghai": {
+      "name": "Shanghai Stock Exchange",
+      "currency": "RMB",
+      "country_code": "CN"
+    },
+    "Toronto": {
+      "name": "Toronto Stock Exchange",
+      "currency": "CAD",
+      "country_code": "CA"
+    },
+    "Frankfurt": {
+      "name": "Frankfurt Stock Exchange",
+      "currency": "EUR",
+      "country_code": "DE"
+    },
+    "ASX": {
+      "name": "Australian Securities Exchange",
+      "currency": "AUD",
+      "country_code": "AU"
+    },
+    // "": {
+    //   "name": "Bombay Stock Exchange",
+    //   "currency": "INR",
+    //   "country_code": "IN"
+    // },
+    // "": {
+    //   "name": "National Stock Exchange of India",
+    //   "currency": "INR",
+    //   "country_code": "IN"
+    // },
+    "Swiss": {
+      "name": "SIX Swiss Exchange",
+      "currency": "CHF",
+      "country_code": "CH"
+    },
+    "Sao Paolo": {
+      "name": "BM&F Bovespa",
+      "currency": "BRL",
+      "country_code": "BR"
+    },
+    "KSE": {
+      "name": "Korea Exchange",
+      "currency": "KRW",
+      "country_code": "KR"
+    },
+    "Shenzhen": {
+      "name": "Shenzhen Stock Exchange",
+      "currency": "RMB",
+      "country_code": "CN"
+    },
+    // "": {
+    //   "name": "BME Spanish Exchanges",
+    //   "currency": "EUR",
+    //   "country_code": "ES"
+    // },
+    // "": {
+    //   "name": "JSE Limited",
+    //   "currency": "ZAR",
+    //   "country_code": "ZA"
+    // },
+    "RUS": {
+      "name": "Moscow Exchange",
+      "currency": "RUB",
+      "country_code": "RU"
+    },
+    "SES": {
+      "name": "Singapore Exchange",
+      "currency": "SGD",
+      "country_code": "SG"
+    },
+    "Taiwan OTC": {
+      "name": "Taiwan Stock Exchange",
+      "currency": "TWD",
+      "country_code": "TW"
+    },
+    "Copenhagen": {
+      "name": "Copenhagen Stock Exchange",
+      "currency": "DKK",
+      "country_code": "DK"
+    },
+    "Berlin": {
+      "name": "Berlin Stock Exchange",
+      "currency": "EUR",
+      "country_code": "DE"
+    },
+    "Stuttgart": {
+      "name": "Stuttgart Stock Exchange",
+      "currency": "EUR",
+      "country_code": "DE"
+    },
+    "Munich": {
+      "name": "München Stock Exhange",
+      "currency": "EUR",
+      "country_code": "DE"
+    },
+    "Dusseldorf": {
+      "name": "Düsseldorf Stock Exhange",
+      "currency": "EUR",
+      "country_code": "DE"
+    },
+    "Other OTC": {
+      "name": "OTC Markets",
+      "currency": "USD",
+      "country_code": "US"
+    }
+  }
+}
