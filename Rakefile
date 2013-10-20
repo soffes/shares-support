@@ -5,41 +5,39 @@ Bundler.require
 require 'net/http'
 require 'json'
 
-API_KEY = ENV['OPEN_EXCHANGE_RATES_API_KEY']
-
 desc 'Update rates'
 task :update do
   # Get exchanges
   exchanges = JSON(File.open('data/exchanges.json').read)
-  upload_file(exchanges.to_json, 'exchanges.json')
-  puts 'Uploaded exchanges.json'
 
   # Get currencies
   currencies = JSON(File.open('data/currencies.json').read)
-  rates = JSON(Net::HTTP.get('openexchangerates.org', "/api/latest.json?app_id=#{API_KEY}"))
+  rates = JSON(Net::HTTP.get('openexchangerates.org', "/api/latest.json?app_id=#{ENV['OPEN_EXCHANGE_RATES_API_KEY']}"))
   currencies['updated_at'] = rates['timestamp']
   currencies['currencies'].each do |key, currency|
     currency['rate'] = rates['rates'][key]
   end
-  upload_file(currencies.to_json, 'currencies.json')
-  puts 'Uploaded currencies.json'
 
-  # Get library
-  library = JSON(Net::HTTP.get('sharesapp.s3.amazonaws.com', '/artwork/iphone.json'))
+  # Get artwork
+  artwork = JSON(File.open('data/artwork.json').read)
 
   combined = {
-    updated_at: [currencies['updated_at'], library['updated_at'], exchanges['updated_at']].max,
+    updated_at: [currencies['updated_at'], artwork['updated_at'], exchanges['updated_at']].max,
+    artwork: artwork,
     currencies: currencies,
-    library: {
-      iphone: library
-    },
     exchanges: exchanges
   }
   upload_file(combined.to_json, 'configuration.json')
   puts 'Uploaded configuration.json'
 end
 
-task :default => :update
+desc 'Deploy to Heroku and run jobs'
+task :deploy do
+  sh 'git push heroku master'
+  sh 'heroku run rake update'
+end
+
+task :default => :deploy
 
 def fog
   @fog_connection ||= Fog::Storage.new({

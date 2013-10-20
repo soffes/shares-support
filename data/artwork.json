@@ -7,8 +7,6 @@
     "BRCM": "broadcom",
     "C": "citi",
     "CSCO": "cisco",
-    // "CSOD": "",
-    // "DDD": "",
     "DIS": "disney",
     "F": "ford",
     "FB": "facebook",
@@ -21,7 +19,6 @@
     "JPM": "chase",
     "KO": "cocacola",
     "MCD": "mcdonalds",
-    // "MNKD": "",
     "MSFT": "microsoft",
     "N": "netsuite",
     "NFLX": "netflix",
@@ -44,8 +41,7 @@
     "VZ": "verizon",
     "WMT": "walmart",
     "XOM": "exxon",
-    // "YHOO": "",
-    "ZNGA": "zynga",
+    "ZNGA": "zynga"
   },
   "updated_at": 1382204495
 }
