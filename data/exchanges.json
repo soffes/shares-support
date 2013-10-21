@@ -51,16 +51,6 @@
       "currency": "AUD",
       "country_code": "AU"
     },
-    // "": {
-    //   "name": "Bombay Stock Exchange",
-    //   "currency": "INR",
-    //   "country_code": "IN"
-    // },
-    // "": {
-    //   "name": "National Stock Exchange of India",
-    //   "currency": "INR",
-    //   "country_code": "IN"
-    // },
     "Swiss": {
       "name": "SIX Swiss Exchange",
       "currency": "CHF",
@@ -81,16 +71,6 @@
       "currency": "RMB",
       "country_code": "CN"
     },
-    // "": {
-    //   "name": "BME Spanish Exchanges",
-    //   "currency": "EUR",
-    //   "country_code": "ES"
-    // },
-    // "": {
-    //   "name": "JSE Limited",
-    //   "currency": "ZAR",
-    //   "country_code": "ZA"
-    // },
     "RUS": {
       "name": "Moscow Exchange",
       "currency": "RUB",

@@ -29,7 +29,6 @@
       "name": "Australian dollar",
       "symbol": "$"
     },
-
     "AED": {
       "name": "United Arab Emirates dirham",
       "symbol": "د.إ"
@@ -110,10 +109,6 @@
       "name": "Bahamian dollar",
       "symbol": "$"
     },
-    // "BTC": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "BTN": {
       "name": "Bhutanese ngultrum",
       "symbol": "Nu."
@@ -138,10 +133,6 @@
       "name": "Swiss franc",
       "symbol": "Fr"
     },
-    // "CLF": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "CLP": {
       "name": "Chilean peso",
       "symbol": "$"
@@ -186,10 +177,6 @@
       "name": "Algerian dinar",
       "symbol": "د.ج"
     },
-    // "EEK": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "EGP": {
       "name": "Egyptian pound",
       "symbol": "£"
@@ -390,10 +377,6 @@
       "name": "Mauritanian ouguiya",
       "symbol": "UM"
     },
-    // "MTL": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "MUR": {
       "name": "Mauritian rupee",
       "symbol": "₨"
@@ -566,10 +549,6 @@
       "name": "Tunisian dinar",
       "symbol": "د.ت"
     },
-    // "TOP": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "TRY": {
       "name": "Tongan paʻanga",
       "symbol": "T$"
@@ -622,22 +601,10 @@
       "name": "Central African CFA franc",
       "symbol": "Fr"
     },
-    // "XAG": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
-    // "XAU": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "XCD": {
       "name": "East Caribbean dollar",
       "symbol": "$"
     },
-    // "XDR": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "XOF": {
       "name": "West African CFA franc",
       "symbol": "Fr"
@@ -654,10 +621,6 @@
       "name": "South African rand",
       "symbol": "R"
     },
-    // "ZMK": {
-    //   "name": "",
-    //   "symbol": ""
-    // },
     "ZMW": {
       "name": "Zambian kwacha",
       "symbol": "ZK"

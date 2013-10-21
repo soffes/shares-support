@@ -5,7 +5,7 @@ Bundler.require
 require 'net/http'
 require 'json'
 
-desc 'Update rates'
+desc 'Update rates and upload a unified configuration file'
 task :update do
   # Get exchanges
   exchanges = JSON(File.open('data/exchanges.json').read)

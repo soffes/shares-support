@@ -1,6 +1,8 @@
 # Shares Support
 
-Currently, this just caches the exchange rate API and combines it with more configuration and uploads to S3 in a unified file.
+This repository contains the supporting files and artwork for [Shares](http://getsharesapp.com). It's primary job is to caches the exchange rate API and combine it with more configuration and upload to S3 in a unified file. The app access this file on S3 occasionally to see if there is new content.
+
+This is deployed to Heroku. `bundle exec rake update` is executed every hour to make sure things stay up to date.
 
 ## Data
 
