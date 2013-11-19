@@ -115,6 +115,11 @@
       "name": "OTC Markets",
       "currency": "USD",
       "country_code": "US"
+    },
+    "Jakarta": {
+      "name": "Jakarta Stock Exchange",
+      "currency": "IDR",
+      "country_code": "ID"
     }
   }
 }
