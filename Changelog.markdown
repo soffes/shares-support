@@ -6,7 +6,7 @@
 
 * Greatly improved artwork system. Added artwork for several new companies.
 * Added support for Berlin Stock Exchange, Stuttgart Stock Exchange, München Stock Exhange, Düsseldorf Stock Exhange, and OTC Markets
-* Added localizations for Arabic, Danish, Dutch, French, German, Greek, Italian, Polish, Protugeese (Brazil), Russian, Slovenian, and Spanish (Spain)
+* Added localizations for Arabic, Danish, Dutch, French, German, Greek, Italian, Polish, Portuguese (Brazil), Russian, Slovenian, and Spanish (Spain)
 * Added option to adjust the number of decimal places displayed. (Tap edit on the overview and then tap the gear icon.)
 * Bug fixes
 
