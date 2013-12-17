@@ -2,7 +2,7 @@
 
 ## Version 2.1.1
 
-*In review*
+*Released December 17, 2013*
 
 * Greatly improved artwork system. Added artwork for several new companies.
 * Added support for Berlin Stock Exchange, Stuttgart Stock Exchange, München Stock Exhange, Düsseldorf Stock Exhange, and OTC Markets
