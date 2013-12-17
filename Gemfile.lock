@@ -1,12 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.5)
     builder (3.2.2)
-    excon (0.25.3)
-    fog (1.15.0)
+    excon (0.28.0)
+    fog (1.18.0)
       builder
-      excon (~> 0.25.0)
+      excon (~> 0.28.0)
       formatador (~> 0.2.0)
       mime-types
       multi_json (~> 1.0)
@@ -15,37 +14,22 @@ GEM
       nokogiri (~> 1.5)
       ruby-hmac
     formatador (0.2.4)
-    heroku (3.0.0)
-      heroku-api (~> 0.3.7)
-      launchy (>= 0.3.2)
-      netrc (~> 0.7.7)
-      rest-client (~> 1.6.1)
-      rubyzip
-    heroku-api (0.3.15)
-      excon (~> 0.25.1)
-    launchy (2.3.0)
-      addressable (~> 2.3)
-    mime-types (1.25)
-    mini_portile (0.5.1)
-    multi_json (1.8.1)
+    mime-types (2.0)
+    mini_portile (0.5.2)
+    multi_json (1.8.2)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.7.0)
-    netrc (0.7.7)
-    nokogiri (1.6.0)
+    nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     rack (1.5.2)
     rake (10.1.0)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
     ruby-hmac (0.4.0)
-    rubyzip (1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   fog
-  heroku
   rack
   rake
