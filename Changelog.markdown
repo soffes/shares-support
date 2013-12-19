@@ -6,6 +6,7 @@
 
 * Fix total gain or loss label
 * Add Czech and Portuguese (Portugal) localizations
+* Add support for Oslo Stock Exchange
 * Various improvements in other localizations
 * Bug fixes
 

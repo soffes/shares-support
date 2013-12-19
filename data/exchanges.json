@@ -1,5 +1,5 @@
 {
-  "updated_at": 1382204495,
+  "updated_at": 1387454878,
   "exchanges": {
     "NYSE": {
       "name": "New York Stock Exchange",
@@ -120,6 +120,11 @@
       "name": "Jakarta Stock Exchange",
       "currency": "IDR",
       "country_code": "ID"
+    },
+    "Oslo": {
+      "name": "Oslo Stock Exchange",
+      "currency": "NOK",
+      "country_code": "NO"
     }
   }
 }
