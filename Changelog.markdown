@@ -1,5 +1,14 @@
 # Shares
 
+## Version 2.1.2
+
+*In review*
+
+* Fix total gain or loss label
+* Add Czech and Portuguese (Portugal) localizations
+* Various improvements in other localizations
+* Bug fixes
+
 ## Version 2.1.1
 
 *Released December 17, 2013*
