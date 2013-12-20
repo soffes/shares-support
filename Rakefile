@@ -34,7 +34,7 @@ end
 desc 'Deploy to Heroku and run jobs'
 task :deploy do
   sh 'git push heroku master'
-  sh 'heroku run rake update'
+  sh 'heroku run bundle exec rake update'
 end
 
 task :default => :deploy
