@@ -2,7 +2,7 @@
 
 ## Version 2.1.2
 
-*In review*
+*Released December 20, 2013*
 
 * Fix total gain or loss label
 * Add Czech and Portuguese (Portugal) localizations
