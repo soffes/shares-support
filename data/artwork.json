@@ -13,6 +13,7 @@
     "GE": "generalelectric",
     "GM": "generalmotors",
     "GOOG": "google",
+    "GPRO": "gopro",
     "IBM": "ibm",
     "INTC": "intel",
     "JNJ": "johnsonjohnson",
@@ -44,5 +45,5 @@
     "ZNGA": "zynga",
     "CUDA": "barracuda"
   },
-  "updated_at": 1387303917
+  "updated_at": 1403987412
 }
