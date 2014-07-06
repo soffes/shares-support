@@ -19,6 +19,7 @@
     "JNJ": "johnsonjohnson",
     "JPM": "chase",
     "KO": "cocacola",
+    "LNKD": "linkedin",
     "MCD": "mcdonalds",
     "MSFT": "microsoft",
     "N": "netsuite",
@@ -39,11 +40,12 @@
     "SIRI": "siriusxm",
     "T": "att",
     "TSLA": "tesla",
+    "TWTR": "twitter",
     "VZ": "verizon",
     "WMT": "walmart",
     "XOM": "exxon",
     "ZNGA": "zynga",
     "CUDA": "barracuda"
   },
-  "updated_at": 1403987412
+  "updated_at": 1404619181
 }
