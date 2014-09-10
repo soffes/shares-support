@@ -16,6 +16,11 @@
       "currency": "USD",
       "country_code": "US"
     },
+    "AMEX": {
+      "name": "American Stock Exchange",
+      "currency": "USD",
+      "country_code": "US"
+    },
     "London": {
       "name": "London Stock Exchange",
       "currency": "GBP",
