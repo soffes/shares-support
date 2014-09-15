@@ -1,5 +1,26 @@
 # Shares
 
+## Version 2.2
+
+*Unreleased*
+
+* iPhone 6 & iPhone 6 Plus support
+* Improved support for iOS 8
+* Improved support for external keyboards with lots of new keyboard shortcuts
+* Add support for American Stock Exchange
+* Add support for Pacific Stock Exchange
+* New stocks are now always added at the bottom
+* Automatically refresh when Shares comes back from the background
+
+
+## Version 2.1.3
+
+* Released February 5, 2014*
+
+* Better support for locales that use commas instead of periods for decimals
+* Improved Russian localization
+* Other bug fixes and performance improvements
+
 ## Version 2.1.2
 
 *Released December 20, 2013*
