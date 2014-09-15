@@ -1,5 +1,5 @@
 {
-  "updated_at": 1410368657,
+  "updated_at": 1410805166,
   "exchanges": {
     "NYSE": {
       "name": "New York Stock Exchange",
@@ -18,6 +18,11 @@
     },
     "AMEX": {
       "name": "American Stock Exchange",
+      "currency": "USD",
+      "country_code": "US"
+    },
+    "PCX": {
+      "name": "Pacific Exchange",
       "currency": "USD",
       "country_code": "US"
     },
