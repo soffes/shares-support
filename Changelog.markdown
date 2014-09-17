@@ -2,7 +2,7 @@
 
 ## Version 2.2
 
-*Unreleased*
+* Released September 16, 2014*
 
 * iPhone 6 & iPhone 6 Plus support
 * Improved support for iOS 8
