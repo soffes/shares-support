@@ -45,7 +45,8 @@
     "WMT": "walmart",
     "XOM": "exxon",
     "ZNGA": "zynga",
-    "CUDA": "barracuda"
+    "CUDA": "barracuda",
+    "ZEN": "zendesk"
   },
-  "updated_at": 1404619181
+  "updated_at": 1412169521
 }
