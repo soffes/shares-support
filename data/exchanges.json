@@ -1,5 +1,5 @@
 {
-  "updated_at": 1410805166,
+  "updated_at": 1414162698,
   "exchanges": {
     "NYSE": {
       "name": "New York Stock Exchange",
@@ -110,6 +110,11 @@
       "name": "Stuttgart Stock Exchange",
       "currency": "EUR",
       "country_code": "DE"
+    },
+    "MCE": {
+      "name": "Madrid Stock Exchange",
+      "currency": "EUR",
+      "country_code": "ES"
     },
     "Munich": {
       "name": "München Stock Exhange",
